@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "65b0ba142a3c8cc6b9f66c17"
+  },
+  "date": "2024-01-15",
+  "description": "Grocery shopping",
+  "amount": -50.25,
+  "category": "Expenses",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65b0ba142a3c8cc6b9f66c18"
+  },
+  "date": "2024-01-18",
+  "description": "Salary",
+  "amount": 2500,
+  "category": "Income",
+  "type": "Income"
+},
+{
+  "_id": {
+    "$oid": "65b0ba142a3c8cc6b9f66c19"
+  },
+  "date": "2024-01-20",
+  "description": "Dinner with friends",
+  "amount": -30,
+  "category": "Entertainment",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65b0ba142a3c8cc6b9f66c1a"
+  },
+  "date": "2024-01-22",
+  "description": "Freelance project payment",
+  "amount": 500,
+  "category": "Income",
+  "type": "Income"
+},
+{
+  "_id": {
+    "$oid": "65b0ba142a3c8cc6b9f66c1b"
+  },
+  "date": "2024-01-25",
+  "description": "Online subscription renewal",
+  "amount": -10,
+  "category": "Bills",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65b0ba142a3c8cc6b9f66c1c"
+  },
+  "date": "2024-01-28",
+  "description": "Birthday gift purchase",
+  "amount": -40,
+  "category": "Gifts",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65b0ba142a3c8cc6b9f66c1d"
+  },
+  "date": "2024-02-01",
+  "description": "Web hosting renewal",
+  "amount": -120,
+  "category": "Bills",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65b0ba142a3c8cc6b9f66c1e"
+  },
+  "date": "2024-02-05",
+  "description": "Freelance project payment",
+  "amount": 700,
+  "category": "Income",
+  "type": "Income"
+},
+{
+  "_id": {
+    "$oid": "65b0d3612a3c8cc6b9f66c23"
+  },
+  "date": "2024-02-10",
+  "description": "Movie tickets",
+  "amount": -25.5,
+  "category": "Entertainment",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65b0d3612a3c8cc6b9f66c24"
+  },
+  "date": "2024-02-15",
+  "description": "Electricity bill",
+  "amount": -80,
+  "category": "Bills",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65b0d3612a3c8cc6b9f66c25"
+  },
+  "date": "2024-02-20",
+  "description": "Book purchase",
+  "amount": -15.75,
+  "category": "Shopping",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65b0d3612a3c8cc6b9f66c26"
+  },
+  "date": "2024-02-25",
+  "description": "Freelance project payment",
+  "amount": 600,
+  "category": "Income",
+  "type": "Income"
+},
+{
+  "_id": {
+    "$oid": "65bbdeacd208705b56109223"
+  },
+  "date": {
+    "$date": "2024-01-15T00:00:00.000Z"
+  },
+  "description": "BDAY CELEB",
+  "amount": 10500,
+  "category": "Expenses",
+  "type": "Expense",
+  "__v": 0
+}]

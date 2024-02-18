@@ -1,0 +1,12 @@
+/* Background styles */
+.bg{
+    height: 95vh;
+    width: 90vw;
+    margin-left: 130px; 
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #fff3eb;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px rgba(71, 71, 71, 0.3);
+}

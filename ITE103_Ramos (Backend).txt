@@ -1,0 +1,5 @@
+Detailed Workflow & Demo Video: 
+https://drive.google.com/drive/folders/1j6DOelmgdohLjWtySV_Ok2-5R5oCL8yj
+
+Github Link: 
+https://github.com/hananramss/Modern-Query-Language

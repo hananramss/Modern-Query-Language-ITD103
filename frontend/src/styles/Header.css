@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,600;1,700;1,900&family=Rubik+Scribble&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    width:4rem;
+    height: auto;
+    transition: width 1s;
+    margin-left: 6rem;
+}
+
+.logo:hover{
+    width: 4.5rem;
+    cursor: pointer;
+
+}
+
+.navbar {
+    display: block !important;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: 4rem;
+    border-radius: 35px;
+    padding-top: 2rem;
+    width: 200px;
+    background-color: #56C3A3;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000; 
+}
+.navbar-brand {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 15px;
+    padding: 7px;
+    color: white !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.navbar-nav{
+    padding-top: 2rem;
+}
+
+/* To get rid of the spaces of the nav links*/
+.navbar-collapse {
+    flex-grow: 0 !important; /* Override flex-grow property */
+}
+.nav-item{
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+}
+
+.nav-item:not(.active) .nav-link {
+    color: white !important; 
+}
+
+.nav-item.active {
+    width: 195px !important;
+    margin-left: 1rem;
+    margin-bottom: 0.8rem;
+    background-color:hsl(208, 100%, 95%);
+    padding: 6px;
+    width: 220%;
+    border-radius: 18px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+.nav-link .fa{
+    margin-right: 1rem;
+    padding-left: 1rem;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        height: 15vh;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        margin: 0;
+    }
+    .navbar-brand {
+        margin-top: 1.7rem;
+        padding-left: 2rem;
+        width: 20%;
+    }
+    .navbar-nav {
+        padding-top: 0;
+        flex-direction: row !important;
+        margin-top: 1.5rem;
+        justify-content:space-around;
+        padding-right: 2rem;
+        color: white;
+    }
+    .nav-link .fa{
+        padding-left: 0;
+    }
+    .nav-item.active{
+        border-bottom: 2px solid #F2D1BB;
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        width: auto !important; 
+        margin-left: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        color: rgba(255, 255, 255, 0.9);
+    }
+}
