@@ -1,133 +1,383 @@
 [{
   "_id": {
-    "$oid": "65b0ba142a3c8cc6b9f66c17"
+    "$oid": "65d0ff21e5476a6a8532c96f"
   },
-  "date": "2024-01-15",
-  "description": "Grocery shopping",
-  "amount": -50.25,
-  "category": "Expenses",
-  "type": "Expense"
-},
-{
-  "_id": {
-    "$oid": "65b0ba142a3c8cc6b9f66c18"
-  },
-  "date": "2024-01-18",
-  "description": "Salary",
-  "amount": 2500,
-  "category": "Income",
-  "type": "Income"
-},
-{
-  "_id": {
-    "$oid": "65b0ba142a3c8cc6b9f66c19"
-  },
-  "date": "2024-01-20",
-  "description": "Dinner with friends",
+  "date": "2024-04-15",
+  "description": "Gym membership",
   "amount": -30,
-  "category": "Entertainment",
+  "category": "Health Care",
   "type": "Expense"
 },
 {
   "_id": {
-    "$oid": "65b0ba142a3c8cc6b9f66c1a"
+    "$oid": "65d0ff21e5476a6a8532c970"
   },
-  "date": "2024-01-22",
-  "description": "Freelance project payment",
-  "amount": 500,
-  "category": "Income",
-  "type": "Income"
+  "date": "2024-04-18",
+  "description": "Family dinner",
+  "amount": -60,
+  "category": "Dining Out",
+  "type": "Expense"
 },
 {
   "_id": {
-    "$oid": "65b0ba142a3c8cc6b9f66c1b"
+    "$oid": "65d0ff21e5476a6a8532c971"
   },
-  "date": "2024-01-25",
-  "description": "Online subscription renewal",
+  "date": "2024-04-22",
+  "description": "Home office equipment",
+  "amount": -100,
+  "category": "Business Expenses",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c972"
+  },
+  "date": "2024-04-25",
+  "description": "Music subscription",
   "amount": -10,
-  "category": "Bills",
-  "type": "Expense"
-},
-{
-  "_id": {
-    "$oid": "65b0ba142a3c8cc6b9f66c1c"
-  },
-  "date": "2024-01-28",
-  "description": "Birthday gift purchase",
-  "amount": -40,
-  "category": "Gifts",
-  "type": "Expense"
-},
-{
-  "_id": {
-    "$oid": "65b0ba142a3c8cc6b9f66c1d"
-  },
-  "date": "2024-02-01",
-  "description": "Web hosting renewal",
-  "amount": -120,
-  "category": "Bills",
-  "type": "Expense"
-},
-{
-  "_id": {
-    "$oid": "65b0ba142a3c8cc6b9f66c1e"
-  },
-  "date": "2024-02-05",
-  "description": "Freelance project payment",
-  "amount": 700,
-  "category": "Income",
-  "type": "Income"
-},
-{
-  "_id": {
-    "$oid": "65b0d3612a3c8cc6b9f66c23"
-  },
-  "date": "2024-02-10",
-  "description": "Movie tickets",
-  "amount": -25.5,
   "category": "Entertainment",
   "type": "Expense"
 },
 {
   "_id": {
-    "$oid": "65b0d3612a3c8cc6b9f66c24"
+    "$oid": "65d0ff21e5476a6a8532c973"
   },
-  "date": "2024-02-15",
-  "description": "Electricity bill",
-  "amount": -80,
-  "category": "Bills",
-  "type": "Expense"
-},
-{
-  "_id": {
-    "$oid": "65b0d3612a3c8cc6b9f66c25"
-  },
-  "date": "2024-02-20",
-  "description": "Book purchase",
-  "amount": -15.75,
-  "category": "Shopping",
-  "type": "Expense"
-},
-{
-  "_id": {
-    "$oid": "65b0d3612a3c8cc6b9f66c26"
-  },
-  "date": "2024-02-25",
-  "description": "Freelance project payment",
-  "amount": 600,
-  "category": "Income",
+  "date": "2024-05-01",
+  "description": "Freelance graphic design",
+  "amount": 400,
+  "category": "Freelance Income",
   "type": "Income"
 },
 {
   "_id": {
-    "$oid": "65bbdeacd208705b56109223"
+    "$oid": "65d0ff21e5476a6a8532c974"
+  },
+  "date": "2024-05-05",
+  "description": "Utilities (Water)",
+  "amount": -25,
+  "category": "Utilities (Water)",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c975"
+  },
+  "date": "2024-05-10",
+  "description": "Car insurance",
+  "amount": -100,
+  "category": "Insurance (Car)",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c976"
+  },
+  "date": "2024-05-15",
+  "description": "Coffee with friends",
+  "amount": -12,
+  "category": "Dining Out",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c977"
+  },
+  "date": "2024-05-20",
+  "description": "Travel expenses",
+  "amount": -150,
+  "category": "Travel",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c978"
+  },
+  "date": "2024-05-25",
+  "description": "Investment contribution",
+  "amount": 200,
+  "category": "Investment",
+  "type": "Income"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c979"
+  },
+  "date": "2024-06-01",
+  "description": "Rent/Mortgage payment",
+  "amount": -1200,
+  "category": "Rent/Mortgage",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c97a"
+  },
+  "date": "2024-06-05",
+  "description": "Fitness class",
+  "amount": -40,
+  "category": "Health Care",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c97b"
+  },
+  "date": "2024-06-10",
+  "description": "Webinar registration",
+  "amount": -25,
+  "category": "Education",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c97c"
+  },
+  "date": "2024-06-15",
+  "description": "Birthday celebration",
+  "amount": -70,
+  "category": "Gifts/Inheritance",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c97d"
+  },
+  "date": "2024-06-20",
+  "description": "Phone bill",
+  "amount": -50,
+  "category": "Utilities (Phone)",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c97e"
+  },
+  "date": "2024-06-25",
+  "description": "Consulting fee",
+  "amount": 250,
+  "category": "Freelance Income",
+  "type": "Income"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c97f"
+  },
+  "date": "2024-06-28",
+  "description": "Movie night",
+  "amount": -15,
+  "category": "Entertainment",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c980"
+  },
+  "date": "2024-07-02",
+  "description": "Vacation expenses",
+  "amount": -300,
+  "category": "Travel",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c981"
+  },
+  "date": "2024-07-05",
+  "description": "Online course",
+  "amount": -80,
+  "category": "Education",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c982"
+  },
+  "date": "2024-07-10",
+  "description": "Investment dividend",
+  "amount": 120,
+  "category": "Investment Gains",
+  "type": "Income"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c983"
+  },
+  "date": "2024-07-15",
+  "description": "Dentist appointment",
+  "amount": -90,
+  "category": "Health Care",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c984"
+  },
+  "date": "2024-07-18",
+  "description": "Business trip",
+  "amount": -200,
+  "category": "Travel",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c985"
+  },
+  "date": "2024-07-22",
+  "description": "Web development project",
+  "amount": 700,
+  "category": "Freelance Income",
+  "type": "Income"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c987"
+  },
+  "date": "2024-08-01",
+  "description": "Utilities (Gas)",
+  "amount": -35,
+  "category": "Utilities (Gas)",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c988"
+  },
+  "date": "2024-08-05",
+  "description": "Bookstore purchase",
+  "amount": -25,
+  "category": "Entertainment",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c989"
+  },
+  "date": "2024-08-10",
+  "description": "Photography gig",
+  "amount": 500,
+  "category": "Freelance Income",
+  "type": "Income"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c98a"
+  },
+  "date": "2024-08-15",
+  "description": "Car maintenance",
+  "amount": -120,
+  "category": "Auto Maintenance",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c98b"
+  },
+  "date": "2024-08-18",
+  "description": "Birthday gift",
+  "amount": -40,
+  "category": "Gifts/Inheritance",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c98c"
+  },
+  "date": "2024-08-22",
+  "description": "Rent/Mortgage payment",
+  "amount": -1200,
+  "category": "Rent/Mortgage",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c98d"
+  },
+  "date": "2024-08-25",
+  "description": "Software subscription",
+  "amount": -20,
+  "category": "Business Expenses",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c98e"
+  },
+  "date": "2024-09-01",
+  "description": "Investment contribution",
+  "amount": 250,
+  "category": "Investment",
+  "type": "Income"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c98f"
   },
   "date": {
-    "$date": "2024-01-15T00:00:00.000Z"
+    "$date": "2024-09-18T00:00:00.000Z"
   },
-  "description": "BDAY CELEB",
-  "amount": 10500,
-  "category": "Expenses",
+  "description": "Utilities (Internet)",
+  "amount": -40,
+  "category": "Utilities (Internet)",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c990"
+  },
+  "date": {
+    "$date": "2024-09-10T00:00:00.000Z"
+  },
+  "description": "Health insurance",
+  "amount": -400,
+  "category": "Insurance (Health)",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d0ff21e5476a6a8532c991"
+  },
+  "date": "2024-09-15",
+  "description": "Webinar registration",
+  "amount": -30,
+  "category": "Education",
+  "type": "Expense"
+},
+{
+  "_id": {
+    "$oid": "65d1da0e12764abfeb04b35b"
+  },
+  "date": {
+    "$date": "2024-02-13T00:00:00.000Z"
+  },
+  "description": "Dinner with Friends",
+  "amount": -300,
+  "category": "Entertainment",
+  "type": "Expense",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d1da3f12764abfeb04b362"
+  },
+  "date": {
+    "$date": "2024-01-28T00:00:00.000Z"
+  },
+  "description": "Salary",
+  "amount": 25000,
+  "category": "Freelance Income",
+  "type": "Income",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d1fe4012764abfeb04b3ba"
+  },
+  "date": {
+    "$date": "2024-02-11T00:00:00.000Z"
+  },
+  "description": "Buy Laptop Bag",
+  "amount": 200,
+  "category": "Education",
   "type": "Expense",
   "__v": 0
 }]
